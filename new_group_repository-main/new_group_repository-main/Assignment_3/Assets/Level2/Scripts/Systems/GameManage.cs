@@ -81,11 +81,11 @@ public class GameManager : MonoBehaviour
         HUD.I?.SetEnergy(energy, targetEnergy);
         HUD.I?.SetCO2(co2);
     }
-
+    public bool turbineBuilt;
     public void OnTurbineBuilt()
     {
-        if (startSpawnerOnTurbineBuilt && energySpawner)
-            energySpawner.Begin();
+        turbineBuilt = true;
+         if (startSpawnerOnTurbineBuilt && energySpawner) energySpawner.Begin();
     }
 
     void OnEnergyGoalReached()

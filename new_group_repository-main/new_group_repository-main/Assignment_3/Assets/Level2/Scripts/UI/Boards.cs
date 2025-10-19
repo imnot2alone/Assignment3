@@ -1,0 +1,95 @@
+using UnityEngine;
+using TMPro;
+
+public class Boards : MonoBehaviour
+{
+    [Header("Refs")]
+    public TextMeshProUGUI text;      
+    public PartInventory inventory;   
+    public GameManager gm;            
+
+    [Header("Format")]
+    [TextArea] public string partsFormat  = "Collect Turbine parts {0}/{1}";
+    [TextArea] public string energyFormat = "Collect Clean energy {0}/{1}";
+    [TextArea] public string doneText     = "Completed!";
+
+    float nextCheck;
+
+    void Awake()
+    {
+        if (!gm) gm = GameManager.I;
+        if (!inventory) inventory = FindAnyObjectByType<PartInventory>();
+    }
+
+    void Start() => Refresh(true);
+
+    void Update()
+    {
+        if (Time.time < nextCheck) return;
+        nextCheck = Time.time + 0.25f;  
+        Refresh(false);
+    }
+
+    void Refresh(bool force)
+    {
+        if (!text) return;
+        if (!gm) gm = GameManager.I;
+
+        string msg;
+
+       
+        if (gm && gm.energy >= gm.targetEnergy)
+        {
+            msg = doneText;
+        }
+       
+        else if (gm && gm.turbineBuilt)
+        {
+            msg = string.Format(energyFormat, gm.energy, gm.targetEnergy);
+        }
+      
+        else
+        {
+            int have = 0, req = 3;
+
+            if (inventory)
+            {
+                // 首选：直接用你的 PartInventory 的“累计已收集数”
+                // （如果你有 public int Collected / Required）
+                if (TryGetInventoryTotals(inventory, out int c, out int r))
+                {
+                    have = c; req = r;
+                }
+                else
+                {
+                    // 兜底：把背包里三类碎片相加（未组装前正确，组装后会被消耗掉）
+                    have = inventory.GetCount(PartType.Mast)
+                         + inventory.GetCount(PartType.Nacelle)
+                         + inventory.GetCount(PartType.Blade);
+                    req = inventory.required;
+                }
+            }
+
+            have = Mathf.Clamp(have, 0, req);
+            msg = string.Format(partsFormat, have, req);
+        }
+
+        if (force || text.text != msg) text.text = msg;
+    }
+
+    // 如果你的 PartInventory 提供 Collected / Required，就走这个分支
+    bool TryGetInventoryTotals(PartInventory inv, out int collected, out int required)
+    {
+        collected = 0; required = 0;
+        // 你的 PartInventory 里如果有：
+        // public int Collected => bag.Count; 
+        // public int Required  => required;
+        try
+        {
+            collected = (int)inv.GetType().GetProperty("Collected")?.GetValue(inv);
+            required  = (int)inv.GetType().GetProperty("Required") ?.GetValue(inv);
+            return required > 0;
+        }
+        catch { return false; }
+    }
+}
