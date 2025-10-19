@@ -1,0 +1,3055 @@
+fileFormatVersion: 2
+guid: 28d10a68ef04b4e6899ca3df921e31b7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7290794448507546517
+    second: Nacelle_0
+  - first:
+      213: -784739977572273471
+    second: Nacelle_1
+  - first:
+      213: -8540649627118822916
+    second: Nacelle_2
+  - first:
+      213: -7182386797239623065
+    second: Nacelle_3
+  - first:
+      213: -468869905552331230
+    second: Nacelle_4
+  - first:
+      213: 7712614511645424454
+    second: Nacelle_5
+  - first:
+      213: 2438148043291612199
+    second: Nacelle_6
+  - first:
+      213: 367318260520662315
+    second: Nacelle_7
+  - first:
+      213: -2004081739461034481
+    second: Nacelle_8
+  - first:
+      213: -6297630312466768774
+    second: Nacelle_9
+  - first:
+      213: 7829257476001861273
+    second: Nacelle_10
+  - first:
+      213: 5832007720620235214
+    second: Nacelle_11
+  - first:
+      213: -1976668773724045529
+    second: Nacelle_12
+  - first:
+      213: 8613090025585814028
+    second: Nacelle_13
+  - first:
+      213: -2564355219425432906
+    second: Nacelle_14
+  - first:
+      213: 5178026008494539571
+    second: Nacelle_15
+  - first:
+      213: -1630073697450356481
+    second: Nacelle_16
+  - first:
+      213: 6867225173919692835
+    second: Nacelle_17
+  - first:
+      213: -972614294935940316
+    second: Nacelle_18
+  - first:
+      213: -3418212135528331226
+    second: Nacelle_19
+  - first:
+      213: -4290261258222834335
+    second: Nacelle_20
+  - first:
+      213: 2942833596008329552
+    second: Nacelle_21
+  - first:
+      213: -8576094733416329462
+    second: Nacelle_22
+  - first:
+      213: 1073147165400780870
+    second: Nacelle_23
+  - first:
+      213: 3824273986954996903
+    second: Nacelle_24
+  - first:
+      213: 7175896265910291945
+    second: Nacelle_25
+  - first:
+      213: -8527928080425931711
+    second: Nacelle_26
+  - first:
+      213: -5735254477052791862
+    second: Nacelle_27
+  - first:
+      213: -1358778151277356525
+    second: Nacelle_28
+  - first:
+      213: -7516334012680397568
+    second: Nacelle_29
+  - first:
+      213: 520634817681580277
+    second: Nacelle_30
+  - first:
+      213: -7020151200815878172
+    second: Nacelle_31
+  - first:
+      213: -8613159018710019410
+    second: Nacelle_32
+  - first:
+      213: 5656464196970948622
+    second: Nacelle_33
+  - first:
+      213: 2765185179446982867
+    second: Nacelle_34
+  - first:
+      213: -8172823789108205972
+    second: Nacelle_35
+  - first:
+      213: -3596806299967201341
+    second: Nacelle_36
+  - first:
+      213: 3017837952005753226
+    second: Nacelle_37
+  - first:
+      213: 2033043865404113956
+    second: Nacelle_38
+  - first:
+      213: 2678431120190975537
+    second: Nacelle_39
+  - first:
+      213: 5298115658579189192
+    second: Nacelle_40
+  - first:
+      213: 2395700092193880699
+    second: Nacelle_41
+  - first:
+      213: 2702053803761442743
+    second: Nacelle_42
+  - first:
+      213: -2759483704625989537
+    second: Nacelle_43
+  - first:
+      213: 3376822923530903466
+    second: Nacelle_44
+  - first:
+      213: -6921408567178681484
+    second: Nacelle_45
+  - first:
+      213: 6191780390705100681
+    second: Nacelle_46
+  - first:
+      213: 8564637471363236668
+    second: Nacelle_47
+  - first:
+      213: -7954490801861161802
+    second: Nacelle_48
+  - first:
+      213: -5428477227224923661
+    second: Nacelle_49
+  - first:
+      213: -2685755048229792137
+    second: Nacelle_50
+  - first:
+      213: -4516734597614450362
+    second: Nacelle_51
+  - first:
+      213: 6806233427637792968
+    second: Nacelle_52
+  - first:
+      213: -5580862071897736986
+    second: Nacelle_53
+  - first:
+      213: 367861685167370546
+    second: Nacelle_54
+  - first:
+      213: 8614734218995711778
+    second: Nacelle_55
+  - first:
+      213: -5562486462274613773
+    second: Nacelle_56
+  - first:
+      213: -7298548351925669625
+    second: Nacelle_57
+  - first:
+      213: 5431231198757420474
+    second: Nacelle_58
+  - first:
+      213: -5130605190872037162
+    second: Nacelle_59
+  - first:
+      213: -201928706583469045
+    second: Nacelle_60
+  - first:
+      213: 3792674062179410102
+    second: Nacelle_61
+  - first:
+      213: 7975303533201248594
+    second: Nacelle_62
+  - first:
+      213: 3993281413549576571
+    second: Nacelle_63
+  - first:
+      213: -876369127953259082
+    second: Nacelle_64
+  - first:
+      213: -3793663261938844621
+    second: Nacelle_65
+  - first:
+      213: -7561248127630016499
+    second: Nacelle_66
+  - first:
+      213: -98642567053032777
+    second: Nacelle_67
+  - first:
+      213: 2545745669033311319
+    second: Nacelle_68
+  - first:
+      213: 1661174545330926068
+    second: Nacelle_69
+  - first:
+      213: 4523223404498721043
+    second: Nacelle_70
+  - first:
+      213: 4336465804550407955
+    second: Nacelle_71
+  - first:
+      213: -5221664037586252789
+    second: Nacelle_72
+  - first:
+      213: -895496406414409330
+    second: Nacelle_73
+  - first:
+      213: 8521189666289032706
+    second: Nacelle_74
+  - first:
+      213: 4061683238561167076
+    second: Nacelle_75
+  - first:
+      213: 4015010341574247796
+    second: Nacelle_76
+  - first:
+      213: -7105711542134894050
+    second: Nacelle_77
+  - first:
+      213: 3350340859336145767
+    second: Nacelle_78
+  - first:
+      213: 7978660668919752022
+    second: Nacelle_79
+  - first:
+      213: 6083883425588713219
+    second: Nacelle_80
+  - first:
+      213: 754156214089644483
+    second: Nacelle_81
+  - first:
+      213: -4039704822193235841
+    second: Nacelle_82
+  - first:
+      213: 293612704364821708
+    second: Nacelle_83
+  - first:
+      213: -2843367887903827249
+    second: Nacelle_84
+  - first:
+      213: -6579547054195418533
+    second: Nacelle_85
+  - first:
+      213: -9220319159264777173
+    second: Nacelle_86
+  - first:
+      213: 4469891161600348444
+    second: Nacelle_87
+  - first:
+      213: -1290511709624111005
+    second: Nacelle_88
+  - first:
+      213: -815942514446868450
+    second: Nacelle_89
+  - first:
+      213: -7630889442892556635
+    second: Nacelle_90
+  - first:
+      213: 8808730680883207265
+    second: Nacelle_91
+  - first:
+      213: 2265810049134416663
+    second: Nacelle_92
+  - first:
+      213: 4874018123202540337
+    second: Nacelle_93
+  - first:
+      213: -3677761907199592538
+    second: Nacelle_94
+  - first:
+      213: -528798957122202135
+    second: Nacelle_95
+  - first:
+      213: 5045191207506048480
+    second: Nacelle_96
+  - first:
+      213: -3958663859715799446
+    second: Nacelle_97
+  - first:
+      213: -3315576530834120832
+    second: Nacelle_98
+  - first:
+      213: 4063684871296245114
+    second: Nacelle_99
+  - first:
+      213: -8477092719910654160
+    second: Nacelle_100
+  - first:
+      213: -968785614018078056
+    second: Nacelle_101
+  - first:
+      213: 6412844953319802007
+    second: Nacelle_102
+  - first:
+      213: -6499351501131980958
+    second: Nacelle_103
+  - first:
+      213: -6606044461859229647
+    second: Nacelle_104
+  - first:
+      213: -4279960378387197025
+    second: Nacelle_105
+  - first:
+      213: -6163267370542925683
+    second: Nacelle_106
+  - first:
+      213: 1298080432469019476
+    second: Nacelle_107
+  - first:
+      213: 9135841686770460527
+    second: Nacelle_108
+  - first:
+      213: -8825017965293739845
+    second: Nacelle_109
+  - first:
+      213: 403756812231744516
+    second: Nacelle_110
+  - first:
+      213: 6854432746544375140
+    second: Nacelle_111
+  - first:
+      213: -8627996780521409058
+    second: Nacelle_112
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 4
+  spritePivot: {x: 0, y: 0.5}
+  spritePixelsToUnits: 650
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Nacelle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 89
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59baea13cea1e2560800000000000000
+      internalID: 7290794448507546517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 272
+        width: 70
+        height: 752
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c2b1cbe52b0c15f0800000000000000
+      internalID: -784739977572273471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_2
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 683
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf992881a64897980800000000000000
+      internalID: -8540649627118822916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_3
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 614
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762a3170349035c90800000000000000
+      internalID: -7182386797239623065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_4
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 446
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22eaea91e4d3e79f0800000000000000
+      internalID: -468869905552331230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_5
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 383
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64bf5200906b80b60800000000000000
+      internalID: 7712614511645424454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_6
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 300
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 724d53e3aba06d120800000000000000
+      internalID: 2438148043291612199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_7
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 659
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2539d5030af81500800000000000000
+      internalID: 367318260520662315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 499
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ef39aa6421034e0800000000000000
+      internalID: -2004081739461034481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_9
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 406
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c9faad8925a98a0800000000000000
+      internalID: -6297630312466768774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 275
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99e8928713c17ac60800000000000000
+      internalID: 7829257476001861273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_11
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 988
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec997e26f147fe050800000000000000
+      internalID: 5832007720620235214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_12
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 950
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f329f19367194e0800000000000000
+      internalID: -1976668773724045529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_13
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 942
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0aa0818eb7d78770800000000000000
+      internalID: 8613090025585814028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_14
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 926
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba6a34b384996cd0800000000000000
+      internalID: -2564355219425432906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_15
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 886
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3330d0a683b0cd740800000000000000
+      internalID: 5178026008494539571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_16
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 846
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff093c1db90d069e0800000000000000
+      internalID: -1630073697450356481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_17
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 838
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3287a1c59e84d4f50800000000000000
+      internalID: 6867225173919692835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_18
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 818
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42350eea3749082f0800000000000000
+      internalID: -972614294935940316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_19
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 798
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62887e65c221090d0800000000000000
+      internalID: -3418212135528331226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_20
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 789
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16de10ecd1ee574c0800000000000000
+      internalID: -4290261258222834335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_21
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 726
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0517923509b07d820800000000000000
+      internalID: 2942833596008329552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_22
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 718
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f0f9e27479bf880800000000000000
+      internalID: -8576094733416329462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_23
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 707
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6405e6149a594ee00800000000000000
+      internalID: 1073147165400780870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_24
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 676
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac2834edec821530800000000000000
+      internalID: 3824273986954996903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_25
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 653
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed82a262a7e59360800000000000000
+      internalID: 7175896265910291945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_26
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 646
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c22200896b6a980800000000000000
+      internalID: -8527928080425931711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_27
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 582
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac3bcc690784860b0800000000000000
+      internalID: -5735254477052791862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_28
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 573
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a1d847876a42de0800000000000000
+      internalID: -1358778151277356525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_29
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 534
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d9ff8e90e90b790800000000000000
+      internalID: -7516334012680397568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_30
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 510
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f06c95bb9aa93700800000000000000
+      internalID: 520634817681580277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_31
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 478
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef66dd5da9639e90800000000000000
+      internalID: -7020151200815878172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_32
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 468
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea256d7c189e77880800000000000000
+      internalID: -8613159018710019410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_33
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 462
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e082b29c73ccf7e40800000000000000
+      internalID: 5656464196970948622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_34
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 438
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d8bc172549ef5620800000000000000
+      internalID: 2765185179446982867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_35
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 421
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66e756b01c449e80800000000000000
+      internalID: -8172823789108205972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_36
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 414
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf51941ab3951ec0800000000000000
+      internalID: -3596806299967201341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_37
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 398
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a89cefec0a381e920800000000000000
+      internalID: 3017837952005753226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_38
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 356
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4240332cf92d63c10800000000000000
+      internalID: 2033043865404113956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_39
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 348
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ea552b9e2bb2520800000000000000
+      internalID: 2678431120190975537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_40
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 750
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd1c80fe10b68940800000000000000
+      internalID: 5298115658579189192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_41
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 566
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a36977a8c3f3120800000000000000
+      internalID: 2395700092193880699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_42
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 542
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf91315e9f9f7520800000000000000
+      internalID: 2702053803761442743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_43
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 526
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f58f946e03854b9d0800000000000000
+      internalID: -2759483704625989537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_44
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 325
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf947ace82ecde20800000000000000
+      internalID: 3376822923530903466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_45
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 318
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47328ff449732ff90800000000000000
+      internalID: -6921408567178681484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_46
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 918
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 987f43bb57f9de550800000000000000
+      internalID: 6191780390705100681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_47
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 854
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c330b9e1764bbd670800000000000000
+      internalID: 8564637471363236668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_48
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 830
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc04f9a2c8fb9190800000000000000
+      internalID: -7954490801861161802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_49
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 364
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f106ff19bc2aa4b0800000000000000
+      internalID: -5428477227224923661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_50
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 268
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7761d8c63084abad0800000000000000
+      internalID: -2685755048229792137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_51
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 0
+        width: 1442
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 649497c60d55151c0800000000000000
+      internalID: -4516734597614450362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_52
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 971
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c07db0dd39947e50800000000000000
+      internalID: 6806233427637792968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_53
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 955
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e8b518a38bcc82b0800000000000000
+      internalID: -5580862071897736986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_54
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 832
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 231b0eee048ea1500800000000000000
+      internalID: 367861685167370546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_55
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 1012
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f34ad112fad8770800000000000000
+      internalID: 8614734218995711778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_56
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 1003
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fdc33ca8041ec2b0800000000000000
+      internalID: -5562486462274613773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_57
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 942
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 701357b71f856ba90800000000000000
+      internalID: -7298548351925669625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_58
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 905
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd74f6dffb9f5b40800000000000000
+      internalID: 5431231198757420474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_59
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1008
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d80c4313cd6cc8b0800000000000000
+      internalID: -5130605190872037162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_60
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 991
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04632649ea923df0800000000000000
+      internalID: -201928706583469045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_61
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 975
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b0aa0117f842a430800000000000000
+      internalID: 3792674062179410102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_62
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 855
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 251d068fe48fdae60800000000000000
+      internalID: 7975303533201248594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_63
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 800
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b71dacec94cfa6730800000000000000
+      internalID: 3993281413549576571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_64
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 287
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b52a3cdbe286d3f0800000000000000
+      internalID: -876369127953259082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_65
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 950
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c7faaec533a5bc0800000000000000
+      internalID: -3793663261938844621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_66
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 943
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d00860e93ec011790800000000000000
+      internalID: -7561248127630016499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_67
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 935
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b2421f9b1d81aef0800000000000000
+      internalID: -98642567053032777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_68
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 271
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c3833b23e445320800000000000000
+      internalID: 2545745669033311319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_69
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 962
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1fe5c927dad0710800000000000000
+      internalID: 1661174545330926068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_70
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 747
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31911e8a8b7b5ce30800000000000000
+      internalID: 4523223404498721043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_71
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 930
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3170bd47ca83e2c30800000000000000
+      internalID: 4336465804550407955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_72
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 739
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c4d3f293ce887b0800000000000000
+      internalID: -5221664037586252789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_73
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 956
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81c70e43ce8293f0800000000000000
+      internalID: -895496406414409330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_74
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 262
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e13e2bad8514670800000000000000
+      internalID: 8521189666289032706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_75
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 245
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e6b890c26ffd5830800000000000000
+      internalID: 4061683238561167076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_76
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 238
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4758d0b12ae28b730800000000000000
+      internalID: 4015010341574247796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_77
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 240
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1218a60001736d90800000000000000
+      internalID: -7105711542134894050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_78
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 230
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76b353db24dce7e20800000000000000
+      internalID: 3350340859336145767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_79
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 221
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 655a75a0b95e9be60800000000000000
+      internalID: 7978660668919752022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_80
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 226
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3071a15edbb4e6450800000000000000
+      internalID: 6083883425588713219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_81
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 204
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c977fdb41d477a00800000000000000
+      internalID: 754156214089644483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_82
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 196
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f785db31ed510f7c0800000000000000
+      internalID: -4039704822193235841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_83
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 199
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cccf431f23f131400800000000000000
+      internalID: 293612704364821708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_84
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 176
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fca5db388f35a88d0800000000000000
+      internalID: -2843367887903827249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_85
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 191
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ad6bb60d0c0b4a0800000000000000
+      internalID: -6579547054195418533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_86
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 182
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c6b447398da0080800000000000000
+      internalID: -9220319159264777173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_87
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 158
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11d8d7345e380e30800000000000000
+      internalID: 4469891161600348444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_88
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 168
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3607f51007e271ee0800000000000000
+      internalID: -1290511709624111005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_89
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 149
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e10614d2b903da4f0800000000000000
+      internalID: -815942514446868450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_90
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 151
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a65c1c5b72a91690800000000000000
+      internalID: -7630889442892556635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_91
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 126
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16cd02432e5ee3a70800000000000000
+      internalID: 8808730680883207265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_92
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 128
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713da232c36c17f10800000000000000
+      internalID: 2265810049134416663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_93
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 115
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 133bd4ec8adf3a340800000000000000
+      internalID: 4874018123202540337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_94
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 100
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a7b7e0f707f5fcc0800000000000000
+      internalID: -3677761907199592538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_95
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 104
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e55223762459a8f0800000000000000
+      internalID: -528798957122202135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_96
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 91
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e572533cae140640800000000000000
+      internalID: 5045191207506048480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_97
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 88
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a66867881300019c0800000000000000
+      internalID: -3958663859715799446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_98
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 90
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f920e36b4bcf1d0800000000000000
+      internalID: -3315576530834120832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_99
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 78
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7dddb03cdb156830800000000000000
+      internalID: 4063684871296245114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_100
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 57
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03feca5b5115b5a80800000000000000
+      internalID: -8477092719910654160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_101
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 56
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a91fced9e2e82f0800000000000000
+      internalID: -968785614018078056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_102
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 51
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 794884222800ff850800000000000000
+      internalID: 6412844953319802007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_103
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 47
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f50a8ae3aadc5a0800000000000000
+      internalID: -6499351501131980958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_104
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 35
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130b170ff8d9254a0800000000000000
+      internalID: -6606044461859229647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_105
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 30
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f931c7946b68a94c0800000000000000
+      internalID: -4279960378387197025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_106
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 35
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d88780b1bfca77aa0800000000000000
+      internalID: -6163267370542925683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_107
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 13
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b833b9645b30210800000000000000
+      internalID: 1298080432469019476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_108
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 23
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f67a8204c9709ce70800000000000000
+      internalID: 9135841686770460527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_109
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 18
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb0e932eaec378580800000000000000
+      internalID: -8825017965293739845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_110
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40c97b87eae6a9500800000000000000
+      internalID: 403756812231744516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_111
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 8
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46525924446df1f50800000000000000
+      internalID: 6854432746544375140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nacelle_112
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 10
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5bec524a2334880800000000000000
+      internalID: -8627996780521409058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Nacelle_0: 7290794448507546517
+      Nacelle_1: -784739977572273471
+      Nacelle_10: 7829257476001861273
+      Nacelle_100: -8477092719910654160
+      Nacelle_101: -968785614018078056
+      Nacelle_102: 6412844953319802007
+      Nacelle_103: -6499351501131980958
+      Nacelle_104: -6606044461859229647
+      Nacelle_105: -4279960378387197025
+      Nacelle_106: -6163267370542925683
+      Nacelle_107: 1298080432469019476
+      Nacelle_108: 9135841686770460527
+      Nacelle_109: -8825017965293739845
+      Nacelle_11: 5832007720620235214
+      Nacelle_110: 403756812231744516
+      Nacelle_111: 6854432746544375140
+      Nacelle_112: -8627996780521409058
+      Nacelle_12: -1976668773724045529
+      Nacelle_13: 8613090025585814028
+      Nacelle_14: -2564355219425432906
+      Nacelle_15: 5178026008494539571
+      Nacelle_16: -1630073697450356481
+      Nacelle_17: 6867225173919692835
+      Nacelle_18: -972614294935940316
+      Nacelle_19: -3418212135528331226
+      Nacelle_2: -8540649627118822916
+      Nacelle_20: -4290261258222834335
+      Nacelle_21: 2942833596008329552
+      Nacelle_22: -8576094733416329462
+      Nacelle_23: 1073147165400780870
+      Nacelle_24: 3824273986954996903
+      Nacelle_25: 7175896265910291945
+      Nacelle_26: -8527928080425931711
+      Nacelle_27: -5735254477052791862
+      Nacelle_28: -1358778151277356525
+      Nacelle_29: -7516334012680397568
+      Nacelle_3: -7182386797239623065
+      Nacelle_30: 520634817681580277
+      Nacelle_31: -7020151200815878172
+      Nacelle_32: -8613159018710019410
+      Nacelle_33: 5656464196970948622
+      Nacelle_34: 2765185179446982867
+      Nacelle_35: -8172823789108205972
+      Nacelle_36: -3596806299967201341
+      Nacelle_37: 3017837952005753226
+      Nacelle_38: 2033043865404113956
+      Nacelle_39: 2678431120190975537
+      Nacelle_4: -468869905552331230
+      Nacelle_40: 5298115658579189192
+      Nacelle_41: 2395700092193880699
+      Nacelle_42: 2702053803761442743
+      Nacelle_43: -2759483704625989537
+      Nacelle_44: 3376822923530903466
+      Nacelle_45: -6921408567178681484
+      Nacelle_46: 6191780390705100681
+      Nacelle_47: 8564637471363236668
+      Nacelle_48: -7954490801861161802
+      Nacelle_49: -5428477227224923661
+      Nacelle_5: 7712614511645424454
+      Nacelle_50: -2685755048229792137
+      Nacelle_51: -4516734597614450362
+      Nacelle_52: 6806233427637792968
+      Nacelle_53: -5580862071897736986
+      Nacelle_54: 367861685167370546
+      Nacelle_55: 8614734218995711778
+      Nacelle_56: -5562486462274613773
+      Nacelle_57: -7298548351925669625
+      Nacelle_58: 5431231198757420474
+      Nacelle_59: -5130605190872037162
+      Nacelle_6: 2438148043291612199
+      Nacelle_60: -201928706583469045
+      Nacelle_61: 3792674062179410102
+      Nacelle_62: 7975303533201248594
+      Nacelle_63: 3993281413549576571
+      Nacelle_64: -876369127953259082
+      Nacelle_65: -3793663261938844621
+      Nacelle_66: -7561248127630016499
+      Nacelle_67: -98642567053032777
+      Nacelle_68: 2545745669033311319
+      Nacelle_69: 1661174545330926068
+      Nacelle_7: 367318260520662315
+      Nacelle_70: 4523223404498721043
+      Nacelle_71: 4336465804550407955
+      Nacelle_72: -5221664037586252789
+      Nacelle_73: -895496406414409330
+      Nacelle_74: 8521189666289032706
+      Nacelle_75: 4061683238561167076
+      Nacelle_76: 4015010341574247796
+      Nacelle_77: -7105711542134894050
+      Nacelle_78: 3350340859336145767
+      Nacelle_79: 7978660668919752022
+      Nacelle_8: -2004081739461034481
+      Nacelle_80: 6083883425588713219
+      Nacelle_81: 754156214089644483
+      Nacelle_82: -4039704822193235841
+      Nacelle_83: 293612704364821708
+      Nacelle_84: -2843367887903827249
+      Nacelle_85: -6579547054195418533
+      Nacelle_86: -9220319159264777173
+      Nacelle_87: 4469891161600348444
+      Nacelle_88: -1290511709624111005
+      Nacelle_89: -815942514446868450
+      Nacelle_9: -6297630312466768774
+      Nacelle_90: -7630889442892556635
+      Nacelle_91: 8808730680883207265
+      Nacelle_92: 2265810049134416663
+      Nacelle_93: 4874018123202540337
+      Nacelle_94: -3677761907199592538
+      Nacelle_95: -528798957122202135
+      Nacelle_96: 5045191207506048480
+      Nacelle_97: -3958663859715799446
+      Nacelle_98: -3315576530834120832
+      Nacelle_99: 4063684871296245114
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
