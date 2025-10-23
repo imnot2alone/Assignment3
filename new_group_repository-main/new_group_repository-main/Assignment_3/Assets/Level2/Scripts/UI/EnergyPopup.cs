@@ -1,64 +1,42 @@
-using System.Collections;
+using TMPro;
 using UnityEngine;
 
-public class EnergyPopupr : MonoBehaviour
+public class EnergyPopup : MonoBehaviour
 {
     [Header("Refs")]
-    public PopupText popupPrefab;       
-    public RectTransform popupLayer;   
-    public Camera uiCamera;            
+    public PopupText popupPrefab;   // PopupText prefabs
+    public Canvas overlayCanvas;    // Screen Space - Overlay Canvas
 
     [Header("Style")]
-    public string format = "+{0} Energy";
-    public Color color = new(0.2f, 1f, 0.5f);
+    public Color color = new(0.2f, 0.8f, 1f, 1f);
+    public Vector2 screenOffset = new(0f, 80f); 
 
-    [Header("Merge")]
-    public float mergeWindow = 0.25f;   
-    public Vector2 headOffset = new(0f, 80f);
+    void OnEnable()  => EnergyPickup.OnPicked += HandlePicked;
+    void OnDisable() => EnergyPickup.OnPicked -= HandlePicked;
 
-    int pending;                        
-    float lastEventTime;                
-    Vector3 lastWorldPos;               
-    Coroutine flushCo;
-
-    void OnEnable()  => EnergyPickup.OnPicked += Handle;
-    void OnDisable() => EnergyPickup.OnPicked -= Handle;
-
-    void Handle(int amount, Vector3 worldPos)
+    void HandlePicked(Vector3 worldPos, int amount)
     {
-        pending += amount;
-        lastWorldPos = worldPos;
-        lastEventTime = Time.unscaledTime;
+        if (!popupPrefab) return;
 
-        if (flushCo == null) flushCo = StartCoroutine(FlushWhenQuiet());
-    }
+        if (!overlayCanvas) overlayCanvas = FindOverlay();
+        if (!overlayCanvas) return;
 
-    IEnumerator FlushWhenQuiet()
-    {
-        while (Time.unscaledTime - lastEventTime < mergeWindow)
-            yield return null;
-
-        SpawnPopup(pending, lastWorldPos);
-        pending = 0;
-        flushCo = null;
-    }
-
-    void SpawnPopup(int total, Vector3 worldAtHead)
-    {
-        if (!popupPrefab || !popupLayer) return;
-
-        var inst = Instantiate(popupPrefab, popupLayer);
+        // 
+        var inst = Instantiate(popupPrefab, overlayCanvas.transform);
         var rt   = (RectTransform)inst.transform;
 
-        // Canvas model detection：Overlay= null；Camera = uiCamera
-        var canvas   = popupLayer.GetComponentInParent<Canvas>();
-        var camForUI = (canvas.renderMode == RenderMode.ScreenSpaceOverlay) ? null : uiCamera;
+        Vector3 screen = Camera.main ? Camera.main.WorldToScreenPoint(worldPos) : worldPos;
+        rt.position = screen + (Vector3)screenOffset;
 
-        Vector2 screen = Camera.main.WorldToScreenPoint(worldAtHead);
-        RectTransformUtility.ScreenPointToLocalPointInRectangle(
-            popupLayer, screen, camForUI, out var local);
+        inst.Play($"+{amount} Energy", color);
+    }
 
-        rt.anchoredPosition = local + headOffset;
-        inst.Play(string.Format(format, total), color);
+    Canvas FindOverlay()
+    {
+        var canvases = FindObjectsByType<Canvas>(FindObjectsSortMode.None);
+        foreach (var c in canvases)
+            if (c.isActiveAndEnabled && c.renderMode != RenderMode.WorldSpace)
+                return c;
+        return null;
     }
 }

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6194332697735595683}
   - component: {fileID: 6919254574456987526}
   - component: {fileID: -7969918517674408396}
+  - component: {fileID: -6065155125656358861}
   m_Layer: 10
   m_Name: Energy
   m_TagString: Finish
@@ -147,5 +148,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45ff81a83da94aa4ebb994396c387035, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 10
-  playerTag: Player
+  amount: 10
+--- !u!95 &-6065155125656358861
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488792839249392716}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e550b012d59ab604aae2d541f8033fbb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

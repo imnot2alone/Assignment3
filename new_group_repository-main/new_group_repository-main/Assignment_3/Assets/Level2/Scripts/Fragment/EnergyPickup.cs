@@ -2,33 +2,57 @@ using System;
 using UnityEngine;
 
 [RequireComponent(typeof(Collider2D))]
+[RequireComponent(typeof(Animator))]
 public class EnergyPickup : MonoBehaviour
 {
-    // event pick energy(value and location)
-    public static event Action<int, Vector3> OnPicked;
+    public static event Action<Vector3, int> OnPicked;
 
+    [Header("Config")]
+    [SerializeField] string playerTag = "Player";
+    [SerializeField] int amount = 10;
+    [SerializeField] string takeTrigger = "Take";
 
-    public int amount = 10;      // energy amount
+    Animator _anim;
+    Collider2D _col;
+    bool _picked;
 
-    bool consumed;
-
-    void Reset()
+    void Awake()
     {
-        var col = GetComponent<Collider2D>();
-        if (col) col.isTrigger = true;
+        _anim = GetComponent<Animator>();
+        _col  = GetComponent<Collider2D>();
+        if (_col) _col.isTrigger = true;
+    }
+
+    // key feature
+    void OnEnable()
+    {
+        _picked = false;
+        if (_col) _col.enabled = true;
+
+        if (_anim)
+        {
+            _anim.Rebind();           // reset 
+            _anim.Update(0f);         // back to default
+            _anim.ResetTrigger(takeTrigger);
+            _anim.Play("Idle", 0, 0f); // start at idle
+        }
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (consumed || !other.CompareTag("Player")) return;
-        consumed = true;
+        if (_picked || !other.CompareTag(playerTag)) return;
+        _picked = true;
 
-        // update energy and co
-        GameManager.I?.AddEnergy(amount);
+        if (_col) _col.enabled = false;
 
-        
-        OnPicked?.Invoke(amount, other.transform.position + Vector3.up * 1.1f);
+        if (GameManager.I) GameManager.I.AddEnergy(amount);
 
-        Destroy(gameObject);
+        OnPicked?.Invoke(transform.position, amount);
+
+        if (_anim) _anim.SetTrigger(takeTrigger);
+        else DestroySelf();
     }
+
+    // for Animation Event to use
+    public void DestroySelf() => Destroy(gameObject);
 }

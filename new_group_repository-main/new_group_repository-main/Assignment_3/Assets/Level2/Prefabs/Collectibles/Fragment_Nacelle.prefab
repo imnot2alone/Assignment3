@@ -152,5 +152,5 @@ MonoBehaviour:
   popupLayer: {fileID: 0}
   uiCamera: {fileID: 0}
   popupText: +1 Fragment
-  popupColor: {r: 1, g: 0.93, b: 0.25, a: 1}
+  popupColor: {r: 1, g: 1, b: 1, a: 1}
   headOffset: {x: 0, y: 80}
