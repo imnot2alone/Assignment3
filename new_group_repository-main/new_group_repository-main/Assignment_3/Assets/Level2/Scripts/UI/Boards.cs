@@ -54,15 +54,14 @@ public class Boards : MonoBehaviour
 
             if (inventory)
             {
-                // 首选：直接用你的 PartInventory 的“累计已收集数”
-                // （如果你有 public int Collected / Required）
+         
                 if (TryGetInventoryTotals(inventory, out int c, out int r))
                 {
                     have = c; req = r;
                 }
                 else
                 {
-                    // 兜底：把背包里三类碎片相加（未组装前正确，组装后会被消耗掉）
+                    
                     have = inventory.GetCount(PartType.Mast)
                          + inventory.GetCount(PartType.Nacelle)
                          + inventory.GetCount(PartType.Blade);
@@ -77,13 +76,11 @@ public class Boards : MonoBehaviour
         if (force || text.text != msg) text.text = msg;
     }
 
-    // 如果你的 PartInventory 提供 Collected / Required，就走这个分支
+  
     bool TryGetInventoryTotals(PartInventory inv, out int collected, out int required)
     {
         collected = 0; required = 0;
-        // 你的 PartInventory 里如果有：
-        // public int Collected => bag.Count; 
-        // public int Required  => required;
+      
         try
         {
             collected = (int)inv.GetType().GetProperty("Collected")?.GetValue(inv);

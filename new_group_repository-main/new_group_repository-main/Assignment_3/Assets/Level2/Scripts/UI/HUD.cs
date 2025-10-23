@@ -17,27 +17,33 @@ public class HUD : MonoBehaviour
     [SerializeField] private string co2Label = "CO2";
 
     [Header("Bars")]
-    public Image energyFill; 
-    public Image co2Fill; 
+    [SerializeField] public Image energyFill; // HUD/EnBar/Fill
+    [SerializeField] public Image co2Fill;    // HUD/CoBar/Fill
 
     void Awake() => I = this;
 
-    // 碎片：显示 “Parts x/y”
     public void SetParts(int cur, int req)
     {
         if (partsText) partsText.text = $"{partsLabel} {cur}/{req}";
     }
 
-    // 能量：显示 “Energy cur/target”，并可选更新进度条
     public void SetEnergy(int cur, int target)
     {
         if (energyText) energyText.text = $"{energyLabel} {cur}/{target}";
-        if (energyFill && target > 0) energyFill.fillAmount = Mathf.Clamp01(cur / (float)target);
+        if (energyFill)
+        {
+            float t = target > 0 ? (float)cur / target : 0f;
+            energyFill.fillAmount = Mathf.Clamp01(t);
+        }
     }
 
-    // CO2：显示 “CO2 n”
-    public void SetCO2(float value)
+    public void SetCO2(float value) // value: 0..100
     {
         if (co2Text) co2Text.text = $"{co2Label} {Mathf.RoundToInt(value)}";
+        if (co2Fill)
+        {
+            float t = Mathf.InverseLerp(0f, 100f, value); // 0→0, 100→1
+            co2Fill.fillAmount = Mathf.Clamp01(t);
+        }
     }
 }
