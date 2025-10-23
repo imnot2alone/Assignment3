@@ -3,7 +3,7 @@ using UnityEngine;
 [RequireComponent(typeof(Collider2D))]
 public class EnergyPickup : MonoBehaviour
 {
-    public int value = 5;
+    public int value = 10;
     public string playerTag = "Player";
 
     void Reset()

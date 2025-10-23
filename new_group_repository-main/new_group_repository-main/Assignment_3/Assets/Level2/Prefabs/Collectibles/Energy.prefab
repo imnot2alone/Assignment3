@@ -147,5 +147,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30c606568af2b4be3bfcccb811a36eaf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 5
+  value: 10
   playerTag: Player

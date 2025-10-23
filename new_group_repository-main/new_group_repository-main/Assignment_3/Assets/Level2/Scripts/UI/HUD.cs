@@ -16,8 +16,9 @@ public class HUD : MonoBehaviour
     [SerializeField] private string energyLabel = "Energy";
     [SerializeField] private string co2Label = "CO2";
 
-    [Header("Optional")]
-    [SerializeField] private Image energyFill; // 可选进度条
+    [Header("Bars")]
+    public Image energyFill; 
+    public Image co2Fill; 
 
     void Awake() => I = this;
 
