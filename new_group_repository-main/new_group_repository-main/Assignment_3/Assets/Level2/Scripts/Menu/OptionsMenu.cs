@@ -7,20 +7,20 @@ using TMPro;
 public class OptionsMenu : MonoBehaviour
 {
     [Header("UI Root")]
-    public GameObject root;                 // 选项面板(Panel)；开局会被隐藏
+    public GameObject root;                 
 
     [Header("Controls")]
-    public Slider volumeSlider;             // 0~1
+    public Slider volumeSlider;             
     public Toggle muteToggle;
-    public TMP_Dropdown difficultyDropdown; // 可留空
+    public TMP_Dropdown difficultyDropdown; 
 
     [Header("Audio (optional)")]
-    public AudioMixer mixer;                // 可留空；若使用，拖 Master
+    public AudioMixer mixer;                
     public string volumeParam = "MasterVolume";
 
     [Header("Behaviour")]
     public KeyCode toggleKey = KeyCode.Escape;
-    public bool startOpen = false;          // 勾上则开场就打开
+    public bool startOpen = false;         
 
     const string KeyVol  = "opt.volume";
     const string KeyMute = "opt.mute";
@@ -31,7 +31,7 @@ public class OptionsMenu : MonoBehaviour
 
     void Awake()
     {
-        // 初始化难度选项（没有就自动填）
+     
         if (difficultyDropdown && difficultyDropdown.options.Count == 0)
             difficultyDropdown.AddOptions(new System.Collections.Generic.List<string>{ "Easy","Normal","Hard" });
 
@@ -49,7 +49,7 @@ public class OptionsMenu : MonoBehaviour
         }
     }
 
-    // ===== 显示/隐藏 =====
+
     public void Show()
     {
         if (root) root.SetActive(true);
@@ -72,7 +72,7 @@ public class OptionsMenu : MonoBehaviour
         AudioListener.pause = false;
     }
 
-    // ===== UI 回调 =====
+    // ===== UI  =====
     public void OnVolumeChanged(float v)
     {
         if (v > 0f) _lastNonZero = v;
@@ -108,7 +108,7 @@ public class OptionsMenu : MonoBehaviour
         SceneManager.LoadScene("3DMenuScene"); // Build Settings
     }
 
-    // ===== 内部 =====
+    
     void ApplyVolume(float lin01)
     {
         lin01 = Mathf.Clamp(lin01, 0.0001f, 1f);
@@ -150,13 +150,13 @@ public class OptionsMenu : MonoBehaviour
 
     void OnDestroy()
     {
-        // 防止卡住
+    
         Time.timeScale = 1f;
         AudioListener.pause = false;
     }
 }
 
-/* ===== 为了让这个文件单独可用，附上最小难度类型 ===== */
+
 public enum Difficulty { Easy = 0, Normal = 1, Hard = 2 }
 public static class DifficultyState
 {

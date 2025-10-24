@@ -9,10 +9,10 @@ public class JuicePack : MonoBehaviour
     public float flashTime = 0.15f;
 
     [Header("Particles")]
-    public ParticleSystem winBurst;   // 风车处礼花
-    public ParticleSystem deathDust;  // 玩家死亡粒子（可选）
+    public ParticleSystem winBurst;  
+    public ParticleSystem deathDust;  
 
-    bool _winShown; // 胜利只播一次
+    bool _winShown; 
 
     void Awake()
     {
@@ -48,7 +48,7 @@ public class JuicePack : MonoBehaviour
         if (deathDust && GameManager.I && GameManager.I.player)
         deathDust.transform.position = GameManager.I.player.position;
         PlayOnce(deathDust);
-        StartCoroutine(Flash(new Color(1f, 0.2f, 0.2f, 1f), flashTime)); // 微红
+        StartCoroutine(Flash(new Color(1f, 0.2f, 0.2f, 1f), flashTime)); 
     }
 
     static void PlayOnce(ParticleSystem ps)
@@ -56,7 +56,7 @@ public class JuicePack : MonoBehaviour
         if (!ps) return;
         var main = ps.main;
         main.loop = false;
-        main.useUnscaledTime = true; // 若你暂停了 Time.timeScale，也能播
+        main.useUnscaledTime = true; 
         ps.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
         ps.Play(true);
     }
@@ -66,14 +66,14 @@ public class JuicePack : MonoBehaviour
         if (!flashImage) yield break;
 
         float half = t * 0.5f;
-        // 淡入
+        // fade in
         for (float x = 0; x < half; x += Time.unscaledDeltaTime)
         {
             float a = Mathf.Lerp(0f, color.a, x / half);
             flashImage.color = new Color(color.r, color.g, color.b, a);
             yield return null;
         }
-        // 淡出
+        // fade out
         for (float x = 0; x < half; x += Time.unscaledDeltaTime)
         {
             float a = Mathf.Lerp(color.a, 0f, x / half);
