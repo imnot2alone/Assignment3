@@ -57,6 +57,8 @@ public class TurbineAssembler : MonoBehaviour
         if (rotorSpin && !rotorSpin.enabled) StartCoroutine(RampUpSpin());
         if (startSpawnerOnBuilt && energySpawner) energySpawner.Begin();
         GameManager.I?.OnTurbineBuilt();
+        Signals.RaiseTurbineBuilt();
+        enabled = false;
     }
 
     void SetWindZonesActive(bool on)

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5795241659981697923}
   - component: {fileID: 7321802071355574950}
   - component: {fileID: 4806758111317380733}
+  - component: {fileID: -5416937923198072981}
   m_Layer: 10
   m_Name: Fragment_Blade
   m_TagString: Finish
@@ -154,3 +155,25 @@ MonoBehaviour:
   popupText: +1 Fragment
   popupColor: {r: 1, g: 1, b: 1, a: 1}
   headOffset: {x: 0, y: 80}
+--- !u!95 &-5416937923198072981
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239374333571621228}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4ddeaf2dba651a1479dc15513efd94b8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

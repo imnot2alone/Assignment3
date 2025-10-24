@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 10021108658005621}
   - component: {fileID: 3878456348577349456}
   - component: {fileID: 2247993231155249713}
+  - component: {fileID: 1547920943652986832}
   m_Layer: 10
   m_Name: Fragment_Nacelle
   m_TagString: Finish
@@ -154,3 +155,25 @@ MonoBehaviour:
   popupText: +1 Fragment
   popupColor: {r: 1, g: 1, b: 1, a: 1}
   headOffset: {x: 0, y: 80}
+--- !u!95 &1547920943652986832
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4718765064353748122}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4ddeaf2dba651a1479dc15513efd94b8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

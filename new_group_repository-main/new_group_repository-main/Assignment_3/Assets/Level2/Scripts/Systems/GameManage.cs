@@ -84,6 +84,7 @@ public class GameManager : MonoBehaviour
     public bool turbineBuilt;
     public void OnTurbineBuilt()
     {
+        Signals.RaiseTurbineBuilt(); 
         turbineBuilt = true;
          if (startSpawnerOnTurbineBuilt && energySpawner) energySpawner.Begin();
     }
