@@ -27,7 +27,7 @@ public class PartInventory : MonoBehaviour
         OnPartAdded?.Invoke(t, worldPos);
     }
 
-    // 兼容旧调用
+    
     public void Add(PartType t) => Add(t, Vector3.zero);
 
     public bool TryUse(PartType type)

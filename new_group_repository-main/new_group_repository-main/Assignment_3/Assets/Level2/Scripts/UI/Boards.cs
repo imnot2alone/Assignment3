@@ -29,6 +29,15 @@ public class Boards : MonoBehaviour
         nextCheck = Time.time + 0.25f;  
         Refresh(false);
     }
+        
+         void OnEnable()
+    {
+        var cg = GetComponent<CanvasGroup>();
+        cg.alpha = 1f;
+        cg.interactable = false;
+        cg.blocksRaycasts = false;
+        cg.ignoreParentGroups = true; 
+    }
 
     void Refresh(bool force)
     {
