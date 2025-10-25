@@ -1,4 +1,6 @@
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
+using UnityEngine.Rendering.Universal.Internal;
 
 public class ThirdPersonMovement : MonoBehaviour
 {
@@ -13,6 +15,11 @@ public class ThirdPersonMovement : MonoBehaviour
     public float jumpHeight = 2f;
     Vector3 velocity;
     bool isGrounded;
+    // Camera directional variables
+    public Transform cameraTransform;
+    public bool shouldFaceMoveDirection = false;
+    // Camera direcitonal variables
+
 
     public Transform groundCheck;
     public float groundDistance = 0.4f;
@@ -26,12 +33,31 @@ public class ThirdPersonMovement : MonoBehaviour
         if (isGrounded && velocity.y < 0)
             velocity.y = -2f; // Keeps player grounded
 
-        // --- Movement input ---
+        // --- Movement input (moved up) ---
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
 
-        if (direction.magnitude >= 0.1f)
+        // --- Camera-relative movement direction ---
+        Vector3 forward = cameraTransform.forward;
+        Vector3 right = cameraTransform.right;
+
+        forward.y = 0;
+        right.y = 0;
+
+        forward.Normalize();
+        right.Normalize();
+
+        Vector3 moveDirection = forward * direction.z + right * direction.x;
+        controller.Move(moveDirection * speed * Time.deltaTime);
+
+        if (shouldFaceMoveDirection && moveDirection.sqrMagnitude > 0.001f)
+        {
+            Quaternion toRotation = Quaternion.LookRotation(moveDirection, Vector3.up);
+            transform.rotation = Quaternion.Slerp(transform.rotation, toRotation, 10f * Time.deltaTime);
+        }
+
+        /*if (direction.magnitude >= 0.1f)
         {
             // --- Rotate towards movement direction relative to camera ---
             float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
@@ -41,7 +67,7 @@ public class ThirdPersonMovement : MonoBehaviour
             // --- Move in camera-relative direction ---
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
-        }
+        }*/
 
         // --- Jump ---
         if (Input.GetButtonDown("Jump") && isGrounded)
@@ -54,4 +80,3 @@ public class ThirdPersonMovement : MonoBehaviour
         controller.Move(velocity * Time.deltaTime);
     }
 }
-
