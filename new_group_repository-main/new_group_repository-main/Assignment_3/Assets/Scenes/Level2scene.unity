@@ -17787,10 +17787,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxSpeed: 6
   accel: 30
+  airAccel: 18
+  decel: 35
+  airDecel: 6
   jumpForce: 15
+  coyoteTime: 0.1
+  jumpBuffer: 0.1
   groundLayer:
     serializedVersion: 2
     m_Bits: 128
+  groundCheck: {fileID: 0}
+  groundRadius: 0.18
+  feet: {fileID: 0}
 --- !u!61 &1716780015
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17945,7 +17953,7 @@ Animator:
   m_GameObject: {fileID: 1716780013}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d94dc5212bb25104db594ed98d6ee356, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

@@ -3,34 +3,70 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerMove : MonoBehaviour
 {
-    public float maxSpeed = 6f;
-    public float accel = 30f;       
-    public float jumpForce = 12f;
-    public LayerMask groundLayer;
+   
+    public float moveSpeed = 5f;     
+
+  public float rotationSpeed = 20f;
+    public float jumpForce = 7f;     
+
+    public LayerMask groundLayer;    
+    
+    public EnergyManager em;        
 
     Rigidbody2D rb;
-
-    void Awake(){ rb = GetComponent<Rigidbody2D>(); }
-
-    void FixedUpdate()
+    Animator anim;
+    SpriteRenderer sr;
+     
+      private bool isGrounded = false;
+    void Awake()
     {
-        float h = Input.GetAxisRaw("Horizontal");
-        rb.AddForce(Vector2.right * h * accel, ForceMode2D.Force);
-
-       
-        var v = rb.linearVelocity;
-        v.x = Mathf.Clamp(v.x, -maxSpeed, maxSpeed);
-        rb.linearVelocity = v;
+        rb   = GetComponent<Rigidbody2D>();
+        anim = GetComponentInChildren<Animator>();
+        sr   = GetComponentInChildren<SpriteRenderer>();
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
-            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+      
+        float move = Input.GetAxisRaw("Horizontal"); // -1,0,1
+
+    
+        rb.linearVelocity = new Vector2(move * moveSpeed, rb.linearVelocity.y);
+
+   
+        if (sr && Mathf.Abs(move) > 0.01f)
+            sr.flipX = move < 0f;
+
+   
+            if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+            {
+
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+                isGrounded = false;
+            };
+
+
+        if (anim)
+        {
+            bool moving = Mathf.Abs(rb.linearVelocity.x) > 0.05f;
+            anim.SetBool("Moving", moving);
+        }
     }
 
-    bool IsGrounded()
+      void OnCollisionEnter2D(Collision2D col)
     {
-        return Physics2D.Raycast(transform.position, Vector2.down, 1.1f, groundLayer);
+        if (col.gameObject.layer == 7)
+        {
+            isGrounded = true;
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.CompareTag("pickup"))
+        {
+            col.gameObject.SetActive(false);
+            if (em) em.energyCount++;
+        }
     }
 }
