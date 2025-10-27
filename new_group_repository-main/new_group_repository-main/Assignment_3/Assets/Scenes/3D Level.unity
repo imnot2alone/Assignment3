@@ -461,7 +461,7 @@ Transform:
   m_GameObject: {fileID: 448282210}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 296.6, y: 3, z: 239.8}
+  m_LocalPosition: {x: 297.45, y: 3, z: 239.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -558,18 +558,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 448282216}
-  cam: {fileID: 562460656}
+  cam: {fileID: 0}
   speed: 6
   turnSmoothTime: 0.1
   gravity: -9.81
   jumpHeight: 2
   cameraTransform: {fileID: 562460656}
-  shouldFaceMoveDirection: 1
+  shouldFaceMoveDirection: 0
   groundCheck: {fileID: 1073345598}
   groundDistance: 0.4
   groundMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
 --- !u!143 &448282216
 CharacterController:
   m_ObjectHideFlags: 0
@@ -759,7 +759,7 @@ Transform:
   m_GameObject: {fileID: 562460652}
   serializedVersion: 2
   m_LocalRotation: {x: 0.1521234, y: -0.000000075774224, z: 0.000000016506615, w: 0.98836154}
-  m_LocalPosition: {x: 296.6, y: 6.007058, z: 230.26283}
+  m_LocalPosition: {x: 297.45, y: 6.007058, z: 230.26283}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -905,7 +905,7 @@ Transform:
   m_GameObject: {fileID: 1073345597}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.064, y: -1.081, z: -0.018}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1000,7 +1000,7 @@ Transform:
   m_GameObject: {fileID: 1222556061}
   serializedVersion: 2
   m_LocalRotation: {x: 0.1521234, y: -0.0000000750106, z: 0.000000011545237, w: 0.98836154}
-  m_LocalPosition: {x: 296.6, y: 6.007058, z: 230.26283}
+  m_LocalPosition: {x: 297.45, y: 6.007058, z: 230.26283}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1188,9 +1188,9 @@ GameObject:
   - component: {fileID: 1703139755}
   - component: {fileID: 1703139754}
   - component: {fileID: 1703139753}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Terrain
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
