@@ -128,6 +128,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 130371026}
+  - component: {fileID: 130371027}
   m_Layer: 0
   m_Name: SceneManagement
   m_TagString: Untagged
@@ -150,6 +151,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &130371027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130371025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4d69743fa9c244f0a5a73fc6664171c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &161558759
 GameObject:
   m_ObjectHideFlags: 0
@@ -974,7 +987,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8b0f7c9d6a6f548339285f77e06ca054, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2006588343}
   m_SourcePrefab: {fileID: 100100000, guid: 8b0f7c9d6a6f548339285f77e06ca054, type: 3}
 --- !u!1 &563580969
 GameObject:
@@ -1932,7 +1948,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1416234591}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 130371027}
+        m_TargetAssemblyTypeName: SceneManagmentScript, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1416234591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2533,6 +2561,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverScale: {x: 1.06, y: 1.06, z: 1.06}
   speed: 8
+--- !u!1 &2006588340 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8b0f7c9d6a6f548339285f77e06ca054, type: 3}
+  m_PrefabInstance: {fileID: 556711355}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2006588343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006588340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864d4a831f66d4552b7cee4d358a3a80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spinspeed: 50
 --- !u!1 &2066685918
 GameObject:
   m_ObjectHideFlags: 0
