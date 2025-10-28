@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 13818911}
   - component: {fileID: 13818910}
   - component: {fileID: 13818913}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Trampoline1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -494,7 +494,7 @@ GameObject:
   - component: {fileID: 101519052}
   - component: {fileID: 101519051}
   - component: {fileID: 101519050}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Trampoline1 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -641,7 +641,7 @@ GameObject:
   - component: {fileID: 135885983}
   - component: {fileID: 135885982}
   - component: {fileID: 135885981}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Balcony (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1272,7 +1272,7 @@ GameObject:
   - component: {fileID: 432215025}
   - component: {fileID: 432215024}
   - component: {fileID: 432215023}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Trampoline1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1642,7 +1642,7 @@ GameObject:
   - component: {fileID: 532637653}
   - component: {fileID: 532637652}
   - component: {fileID: 532637651}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Trampolines
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1954,12 +1954,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98a3d18e14ab54cf5adb8058f974cb01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 6
-  accel: 30
+  moveSpeed: 5
+  rotationSpeed: 20
   jumpForce: 12
   groundLayer:
     serializedVersion: 2
     m_Bits: 0
+  em: {fileID: 0}
 --- !u!50 &574732482
 Rigidbody2D:
   serializedVersion: 5
@@ -2128,12 +2129,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98a3d18e14ab54cf5adb8058f974cb01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 7
-  accel: 30
+  moveSpeed: 5
+  rotationSpeed: 20
   jumpForce: 7
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
+  em: {fileID: 0}
 --- !u!1 &663274330
 GameObject:
   m_ObjectHideFlags: 0
@@ -2311,7 +2313,7 @@ GameObject:
   - component: {fileID: 679401849}
   - component: {fileID: 679401848}
   - component: {fileID: 679401847}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Trampoline1 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2744,7 +2746,7 @@ GameObject:
   - component: {fileID: 764711866}
   - component: {fileID: 764711865}
   - component: {fileID: 764711864}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Trampoline1 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3146,7 +3148,7 @@ GameObject:
   - component: {fileID: 884380138}
   - component: {fileID: 884380137}
   - component: {fileID: 884380136}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Balcony
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3623,7 +3625,7 @@ GameObject:
   - component: {fileID: 1013421593}
   - component: {fileID: 1013421592}
   - component: {fileID: 1013421591}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Trampoline1 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4200,7 +4202,7 @@ GameObject:
   - component: {fileID: 1198014703}
   - component: {fileID: 1198014702}
   - component: {fileID: 1198014701}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Balcony (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5435,7 +5437,7 @@ GameObject:
   - component: {fileID: 1690628131}
   - component: {fileID: 1690628130}
   - component: {fileID: 1690628129}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Trampoline1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5838,7 +5840,7 @@ GameObject:
   - component: {fileID: 1799051260}
   - component: {fileID: 1799051259}
   - component: {fileID: 1799051258}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Trampoline1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5986,7 +5988,7 @@ GameObject:
   - component: {fileID: 1803615505}
   - component: {fileID: 1803615504}
   - component: {fileID: 1803615503}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Trampoline1 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6272,7 +6274,7 @@ GameObject:
   - component: {fileID: 1817855344}
   - component: {fileID: 1817855343}
   - component: {fileID: 1817855342}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Trampoline1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6420,7 +6422,7 @@ GameObject:
   - component: {fileID: 1837789480}
   - component: {fileID: 1837789479}
   - component: {fileID: 1837789478}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Trampoline1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6887,8 +6889,8 @@ GameObject:
   - component: {fileID: 2023473466}
   - component: {fileID: 2023473465}
   - component: {fileID: 2023473464}
-  - component: {fileID: 2023473468}
-  - component: {fileID: 2023473469}
+  - component: {fileID: 2023473470}
+  - component: {fileID: 2023473471}
   m_Layer: 6
   m_Name: Newplayer
   m_TagString: Newplayer
@@ -7039,22 +7041,29 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2023473468
-MonoBehaviour:
+--- !u!95 &2023473470
+Animator:
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2023473463}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43a2e58b8f3c8e94cb54a426f93c34d5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 5
-  rotationSpeed: 20
-  jumpForce: 7
---- !u!114 &2023473469
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d94dc5212bb25104db594ed98d6ee356, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2023473471
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7063,12 +7072,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 2023473463}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56b4173eb58a04c379b3eb2932812dd1, type: 3}
+  m_Script: {fileID: 11500000, guid: 98a3d18e14ab54cf5adb8058f974cb01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 8
+  moveSpeed: 7
   rotationSpeed: 20
-  jumpForce: 7
+  jumpForce: 15
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  em: {fileID: 0}
 --- !u!1 &2032996071
 GameObject:
   m_ObjectHideFlags: 0
@@ -7407,7 +7420,7 @@ GameObject:
   - component: {fileID: 2131434867}
   - component: {fileID: 2131434866}
   - component: {fileID: 2131434865}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Trampoline1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -17785,20 +17785,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98a3d18e14ab54cf5adb8058f974cb01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 6
-  accel: 30
-  airAccel: 18
-  decel: 35
-  airDecel: 6
+  moveSpeed: 5
+  rotationSpeed: 20
   jumpForce: 15
-  coyoteTime: 0.1
-  jumpBuffer: 0.1
   groundLayer:
     serializedVersion: 2
     m_Bits: 128
-  groundCheck: {fileID: 0}
-  groundRadius: 0.18
-  feet: {fileID: 0}
+  em: {fileID: 0}
 --- !u!61 &1716780015
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24511,7 +24504,7 @@ Transform:
   m_GameObject: {fileID: 2000299476}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.119739, y: -0.39999598, z: -10}
+  m_LocalPosition: {x: -9.113712, y: -0.39999598, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
