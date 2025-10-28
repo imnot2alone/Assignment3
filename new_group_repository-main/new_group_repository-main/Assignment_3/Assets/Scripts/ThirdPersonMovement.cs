@@ -27,6 +27,8 @@ public class ThirdPersonMovement : MonoBehaviour
 
     void Update()
     {
+        //Debug.Log("Grounded: " + isGrounded);
+
         // --- Ground check ---
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
@@ -72,6 +74,7 @@ public class ThirdPersonMovement : MonoBehaviour
         // --- Jump ---
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
+            //Debug.Log("Jump pressed!");
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
         }
 
