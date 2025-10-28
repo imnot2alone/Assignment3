@@ -12,6 +12,9 @@ public class EnergyPickup : MonoBehaviour
     [SerializeField] int amount = 10;
     [SerializeField] string takeTrigger = "Take";
 
+    [Header("Audio")]               
+    public AudioClip pickupSfx;        
+
     Animator _anim;
     Collider2D _col;
     bool _picked;
@@ -31,8 +34,8 @@ public class EnergyPickup : MonoBehaviour
 
         if (_anim)
         {
-            _anim.Rebind();           // reset 
-            _anim.Update(0f);         // back to default
+            _anim.Rebind();            // reset
+            _anim.Update(0f);          // back to default
             _anim.ResetTrigger(takeTrigger);
             _anim.Play("Idle", 0, 0f); // start at idle
         }
@@ -45,10 +48,19 @@ public class EnergyPickup : MonoBehaviour
 
         if (_col) _col.enabled = false;
 
+     
         if (GameManager.I) GameManager.I.AddEnergy(amount);
 
+
+        if (pickupSfx != null && SFXplayer.Instance != null)            // ★ 新增
+        {
+            SFXplayer.Instance.PlayOneShot(pickupSfx, 1f, 1f);          // ★ 新增
+        }
+
+       
         OnPicked?.Invoke(transform.position, amount);
 
+        
         if (_anim) _anim.SetTrigger(takeTrigger);
         else DestroySelf();
     }

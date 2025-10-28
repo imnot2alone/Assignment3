@@ -17,6 +17,9 @@ public class FragmentPickup : MonoBehaviour
     [Header("Offsets")]
     public Vector2 headOffset = new(0f, 80f); 
 
+    [Header("Audio")]                        
+    public AudioClip pickupSfx;               
+
     bool picked;
 
     void Reset()
@@ -32,6 +35,13 @@ public class FragmentPickup : MonoBehaviour
 
         //  add part type to inventory
         PartInventory.I?.Add(type);
+
+        
+        if (pickupSfx != null && SFXplayer.Instance != null)
+        {
+           
+            SFXplayer.Instance.PlayOneShot(pickupSfx, 1f, 1f);
+        }
 
         // popuptext
         if (popupPrefab && popupLayer)
@@ -50,11 +60,10 @@ public class FragmentPickup : MonoBehaviour
             RectTransformUtility.ScreenPointToLocalPointInRectangle(
                 popupLayer, screen, camForUI, out var local);
 
-            rt.anchoredPosition = local + headOffset;   // ★  anchoredPosition
+            rt.anchoredPosition = local + headOffset;   // ★ anchoredPosition
             inst.Play(popupText, popupColor);
         }
 
-        
         Destroy(gameObject);
     }
 }

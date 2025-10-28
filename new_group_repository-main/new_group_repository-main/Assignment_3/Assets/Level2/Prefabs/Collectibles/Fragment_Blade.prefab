@@ -155,6 +155,7 @@ MonoBehaviour:
   popupText: +1 Fragment
   popupColor: {r: 1, g: 1, b: 1, a: 1}
   headOffset: {x: 0, y: 80}
+  pickupSfx: {fileID: 8300000, guid: 971acbb5e1e2c9e4dad5dcbdf1f8ce69, type: 3}
 --- !u!95 &-5416937923198072981
 Animator:
   serializedVersion: 7

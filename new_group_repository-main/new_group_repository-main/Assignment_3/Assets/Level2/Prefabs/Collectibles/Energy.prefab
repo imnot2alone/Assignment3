@@ -148,7 +148,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45ff81a83da94aa4ebb994396c387035, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerTag: Player
   amount: 10
+  takeTrigger: Take
+  pickupSfx: {fileID: 8300000, guid: 971acbb5e1e2c9e4dad5dcbdf1f8ce69, type: 3}
 --- !u!95 &-6065155125656358861
 Animator:
   serializedVersion: 7

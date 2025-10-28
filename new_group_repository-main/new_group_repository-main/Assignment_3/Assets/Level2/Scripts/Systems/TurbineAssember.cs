@@ -21,6 +21,12 @@ public class TurbineAssembler : MonoBehaviour
     public EnergySpawner energySpawner;
     public bool startSpawnerOnBuilt = true;
 
+    [Header("Audio")]                                     
+    public AudioClip partInstallSfx;                       
+    public AudioClip completeSfx;                          
+    [Range(0f, 2f)] public float partInstallVolume = 1f;    
+    [Range(0f, 2f)] public float completeVolume = 1f;     
+
     bool mastDone, nacelleDone, bladeDone;
 
     void Start()
@@ -40,10 +46,37 @@ public class TurbineAssembler : MonoBehaviour
         var inv = PartInventory.I;
         if (!inv) return;
 
-        if (!mastDone    && inv.TryUse(PartType.Mast))    { mastDone = true;    SetAlpha(mastRenderer,    1f); }
-        if (!nacelleDone && inv.TryUse(PartType.Nacelle)) { nacelleDone = true; SetAlpha(nacelleRenderer, 1f); }
-        if (!bladeDone   && inv.TryUse(PartType.Blade))   { bladeDone = true;   SetAlpha(bladeRenderer,   1f); }
+        // ----- Mast -----
+        if (!mastDone && inv.TryUse(PartType.Mast))
+        {
+            mastDone = true;
+            SetAlpha(mastRenderer, 1f);
 
+           
+            PlayPartInstallSfx();                         
+        }
+
+        // ----- Nacelle -----
+        if (!nacelleDone && inv.TryUse(PartType.Nacelle))
+        {
+            nacelleDone = true;
+            SetAlpha(nacelleRenderer, 1f);
+
+           
+            PlayPartInstallSfx();                             
+        }
+
+        // ----- Blade -----
+        if (!bladeDone && inv.TryUse(PartType.Blade))
+        {
+            bladeDone = true;
+            SetAlpha(bladeRenderer, 1f);
+
+            
+            PlayPartInstallSfx();                             
+        }
+
+        // 全部完成 → 只执行一次
         if (mastDone && nacelleDone && bladeDone)
         {
             Complete();
@@ -56,8 +89,13 @@ public class TurbineAssembler : MonoBehaviour
         SetWindZonesActive(true);                 
         if (rotorSpin && !rotorSpin.enabled) StartCoroutine(RampUpSpin());
         if (startSpawnerOnBuilt && energySpawner) energySpawner.Begin();
+
+       
+        PlayCompleteSfx();                                   
+
         GameManager.I?.OnTurbineBuilt();
         Signals.RaiseTurbineBuilt();
+
         enabled = false;
     }
 
@@ -84,6 +122,26 @@ public class TurbineAssembler : MonoBehaviour
     static void SetAlpha(SpriteRenderer r, float a)
     {
         if (!r) return;
-        var c = r.color; c.a = a; r.color = c;
+        var c = r.color; 
+        c.a = a; 
+        r.color = c;
+    }
+
+
+
+    void PlayPartInstallSfx()                                
+    {
+        if (partInstallSfx != null && SFXplayer.Instance != null)
+        {
+            SFXplayer.Instance.PlayOneShot(partInstallSfx, partInstallVolume, 1f);
+        }
+    }
+
+    void PlayCompleteSfx()                                     
+    {
+        if (completeSfx != null && SFXplayer.Instance != null)
+        {
+            SFXplayer.Instance.PlayOneShot(completeSfx, completeVolume, 1f);
+        }
     }
 }
