@@ -537,6 +537,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &170519068
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 170519070}
+  - component: {fileID: 170519069}
+  m_Layer: 0
+  m_Name: testmenufix
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &170519069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 170519068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4d69743fa9c244f0a5a73fc6664171c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &170519070
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 170519068}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 463.39114, y: 23.407774, z: 250.86092}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &208738633
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4709,7 +4753,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6119768191495416182, guid: e3b788c55f1273548888d7bec5870050, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 69.7
+      value: 70.61
       objectReference: {fileID: 0}
     - target: {fileID: 6119768191495416182, guid: e3b788c55f1273548888d7bec5870050, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4853,7 +4897,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2583469772947548574, guid: 410f12296a439c54996cb1bebcdde7f3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 63.676983
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 2583469772947548574, guid: 410f12296a439c54996cb1bebcdde7f3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6734,10 +6778,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 762166945}
-        m_TargetAssemblyTypeName: EnergyManager, Assembly-CSharp
-        m_MethodName: GoToMainMenu
-        m_Mode: 1
+      - m_Target: {fileID: 170519069}
+        m_TargetAssemblyTypeName: SceneManagmentScript, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -8120,6 +8164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 6
+  rotationSpeed: 20
   jumpForce: 15
   groundLayer:
     serializedVersion: 2
@@ -9288,7 +9333,7 @@ Transform:
   m_GameObject: {fileID: 2008599308}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.135788, y: -1.972626, z: -10}
+  m_LocalPosition: {x: -2.3362846, y: -1.972626, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9806,3 +9851,4 @@ SceneRoots:
   - {fileID: 1746326740}
   - {fileID: 1816317343}
   - {fileID: 1202397900}
+  - {fileID: 170519070}

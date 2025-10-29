@@ -51,6 +51,6 @@ public class EnergyManager : MonoBehaviour
     public void GoToMainMenu()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("MenuScene"); 
+        SceneManager.LoadScene("3DMenuScene"); 
     }
 }
