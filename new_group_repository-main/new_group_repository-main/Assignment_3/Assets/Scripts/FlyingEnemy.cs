@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class FlyingEnemy : MonoBehaviour
+/*public class FlyingEnemy : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private Transform player;
@@ -9,4 +9,4 @@ public class FlyingEnemy : MonoBehaviour
     [SerializeField] private GameObject projectileprefab;
     [SerializeField]
 
-}
+}*/
