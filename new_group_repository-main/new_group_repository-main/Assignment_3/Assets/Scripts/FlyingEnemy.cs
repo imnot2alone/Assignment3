@@ -18,6 +18,7 @@ public class FlyingEnemy : MonoBehaviour
     [Header("Attack Settings")]
     [SerializeField] private float attackRange = 35f;
     [SerializeField] private float attackDuration = 3f;
+    [SerializeField] private float shootInterval = 0.5f;
 ﻿
     [Header("Projectile Settings")]
     [SerializeField] private float projectileSpeed = 60f;
