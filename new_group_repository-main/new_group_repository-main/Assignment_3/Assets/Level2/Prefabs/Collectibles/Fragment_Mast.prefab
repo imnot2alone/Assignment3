@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -1804500586409072241}
   m_Layer: 10
   m_Name: Fragment_Mast
-  m_TagString: Finish
+  m_TagString: parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

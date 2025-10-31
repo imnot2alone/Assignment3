@@ -32,10 +32,13 @@ public class OptionsMenu : MonoBehaviour
 
     void Awake()
     {
-        // 简单填充难度选项（没有就补）
-        if (difficultyDropdown && difficultyDropdown.options.Count == 0)
-            difficultyDropdown.AddOptions(new System.Collections.Generic.List<string>{ "Easy","Hard" });
 
+        if (difficultyDropdown && difficultyDropdown.options.Count == 0)
+            difficultyDropdown.AddOptions(new System.Collections.Generic.List<string> { "Easy", "Hard" });
+         
+         if (volumeSlider)      volumeSlider.onValueChanged.AddListener(OnVolumeChanged);
+         if (muteToggle)        muteToggle.onValueChanged.AddListener(OnMuteToggled);
+            if (difficultyDropdown) difficultyDropdown.onValueChanged.AddListener(OnDifficultyChanged);
 
         LoadFromPrefs();
 
