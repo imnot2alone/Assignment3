@@ -856,7 +856,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
-  currentHealth: 0
+  currentHealth: 100
   healthText: {fileID: 931238076}
   deathScreen: {fileID: 940269086}
 --- !u!1 &229309978
