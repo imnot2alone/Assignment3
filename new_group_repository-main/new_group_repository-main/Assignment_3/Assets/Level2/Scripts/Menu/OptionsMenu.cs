@@ -34,7 +34,7 @@ public class OptionsMenu : MonoBehaviour
     {
 
         if (difficultyDropdown && difficultyDropdown.options.Count == 0)
-            difficultyDropdown.AddOptions(new System.Collections.Generic.List<string> { "Easy", "Hard" });
+            difficultyDropdown.AddOptions(new System.Collections.Generic.List<string> { "Normal", "Hard" });
          
          if (volumeSlider)      volumeSlider.onValueChanged.AddListener(OnVolumeChanged);
          if (muteToggle)        muteToggle.onValueChanged.AddListener(OnMuteToggled);
@@ -87,10 +87,12 @@ public class OptionsMenu : MonoBehaviour
         SaveToPrefs();
     }
 
-    public void OnDifficultyChanged(int idx)
+   public void OnDifficultyChanged(int idx)
     {
-        DifficultyState.Set((Difficulty)Mathf.Clamp(idx, 0, 2));
-        SaveToPrefs();
+    // 0=Normal, 1=Hard
+    var d = (idx == 0) ? Difficulty.Normal : Difficulty.Hard;
+    DifficultyState.Set(d);
+    SaveToPrefs();
     }
 
     public void OnResumeClicked() => Hide();
@@ -151,7 +153,7 @@ public class OptionsMenu : MonoBehaviour
     {
         if (volumeSlider) PlayerPrefs.SetFloat(KeyVol, volumeSlider.value);
         PlayerPrefs.SetInt(KeyMute, (muteToggle && muteToggle.isOn) ? 1 : 0);
-        PlayerPrefs.SetInt(KeyDiff, difficultyDropdown ? difficultyDropdown.value : 1);
+        PlayerPrefs.SetInt(KeyDiff, difficultyDropdown ? Mathf.Clamp(difficultyDropdown.value,0,1) : 0);
         PlayerPrefs.Save();
     }
 
@@ -159,18 +161,17 @@ public class OptionsMenu : MonoBehaviour
     {
         float vol = PlayerPrefs.GetFloat(KeyVol, 0.8f);
         int mute  = PlayerPrefs.GetInt(KeyMute, 0);
-        int diff  = PlayerPrefs.GetInt(KeyDiff, 1);
+        int diff01  = PlayerPrefs.GetInt(KeyDiff, 1);
 
         if (volumeSlider)   volumeSlider.SetValueWithoutNotify(vol);
         if (muteToggle)     muteToggle.SetIsOnWithoutNotify(mute == 1);
 
-        if (difficultyDropdown)
+       if (difficultyDropdown)
         {
-            difficultyDropdown.value = Mathf.Clamp(diff, 0, 2);
-            difficultyDropdown.RefreshShownValue();
-            DifficultyState.Set((Difficulty)difficultyDropdown.value);
+        difficultyDropdown.value = diff01;
+        difficultyDropdown.RefreshShownValue();
+        DifficultyState.Set(diff01 == 0 ? Difficulty.Normal : Difficulty.Hard);
         }
-
        
         if (mute == 1)
         {
