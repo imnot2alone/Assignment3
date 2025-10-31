@@ -19,6 +19,7 @@ public class Projectile : MonoBehaviour
             if (playerHealth != null)
             {
                 playerHealth.TakeDamage(damage);
+                HealthSystem.Instance.TakeDamage(10); // Take damage x points
             }
         }
         Destroy(gameObject);

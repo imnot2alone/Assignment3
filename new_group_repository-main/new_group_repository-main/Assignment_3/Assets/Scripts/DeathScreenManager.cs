@@ -34,7 +34,6 @@ public class DeathScreenManager : MonoBehaviour
     public void GoToMainMenu()
     {
         Time.timeScale = 1f; // Unpause the game
-        // Replace "MainMenu" with the actual name of your main menu scene
         SceneManager.LoadScene("MainMenu");
     }
 }
